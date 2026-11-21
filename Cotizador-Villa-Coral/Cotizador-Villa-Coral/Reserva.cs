@@ -1,5 +1,5 @@
 ﻿
-namespace WinFormsApp2
+namespace Cotizador_Villa_Coral
 {
     public class Reserva
     {
