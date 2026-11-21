@@ -271,7 +271,7 @@
             lstResultados.FormattingEnabled = true;
             lstResultados.Location = new Point(878, 85);
             lstResultados.Name = "lstResultados";
-            lstResultados.Size = new Size(606, 634);
+            lstResultados.Size = new Size(500, 154);
             lstResultados.TabIndex = 14;
             // 
             // Form1
