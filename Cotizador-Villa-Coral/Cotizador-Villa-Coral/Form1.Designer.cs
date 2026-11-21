@@ -49,6 +49,7 @@
             btnFuncional = new Button();
             nudTarifa = new NumericUpDown();
             lstResultados = new ListBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)nudNoches).BeginInit();
             gbCotizacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudTarifa).BeginInit();
@@ -269,16 +270,27 @@
             // lstResultados
             // 
             lstResultados.FormattingEnabled = true;
+            lstResultados.IntegralHeight = false;
             lstResultados.Location = new Point(878, 85);
             lstResultados.Name = "lstResultados";
-            lstResultados.Size = new Size(500, 154);
+            lstResultados.Size = new Size(500, 180);
             lstResultados.TabIndex = 14;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(893, 139);
+            label1.Name = "label1";
+            label1.Size = new Size(288, 30);
+            label1.TabIndex = 15;
+            label1.Text = "Resultados de los paradigmas";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1661, 831);
+            ClientSize = new Size(1661, 848);
+            Controls.Add(label1);
             Controls.Add(lstResultados);
             Controls.Add(nudTarifa);
             Controls.Add(btnFuncional);
@@ -325,5 +337,6 @@
         private Button btnFuncional;
         private NumericUpDown nudTarifa;
         private ListBox lstResultados;
+        private Label label1;
     }
 }
